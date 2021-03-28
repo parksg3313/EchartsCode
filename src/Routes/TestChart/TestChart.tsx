@@ -16,6 +16,7 @@ interface EchartsProps {
 
 @inject("commonStore")
 @observer
+
 class Echarts extends React.Component<EchartsProps, {}> {
     componentDidMount () {
         const common = this.props.commonStore as ICommonStore;
