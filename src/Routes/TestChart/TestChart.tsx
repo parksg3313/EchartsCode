@@ -13,6 +13,7 @@ interface EchartsProps {
     match?: any
     commonStore?: ICommonStore
 }
+
 @inject("commonStore")
 @observer
 class Echarts extends React.Component<EchartsProps, {}> {
